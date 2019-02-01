@@ -78,11 +78,11 @@ See [Selecting Subsets of Data in Pandas](https://medium.com/dunder-data/selecti
 ```
 
 Now we will display our figure in Markdown. To have the figure show up for anyone who opens this markdown file we will push the figure to github and then link to it there. To find the link in github, go to the code tab and then browse to the image.
-![linear](https://github.com/monroews/CEE4530/blob/master/images/linear.png)
+![linear](https://github.com/jiwon0206/4530/blob/master/tutorial_image.png?raw=true)
 
-Figure 1: Captions are very important for figures. Captions go below figures.
+Figure 1: Concentration vs Voltage in a Photometer
 
-
+linear regression equation:
 $$y = 2.991 \frac{mg}{L} -.09914x$$
 
 
