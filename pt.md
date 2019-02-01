@@ -22,7 +22,7 @@ See [Selecting Subsets of Data in Pandas](https://medium.com/dunder-data/selecti
   import pandas as pd
   from scipy import stats
   #The data file path is the raw data url on github. Happily python can read directly from a web page.
-  data_file_path = "https://raw.githubusercontent.com/jiwon0206/python-tutorial/master/data.txt"
+  data_file_path = "https://raw.githubusercontent.com/jiwon0206/4530/master/dataset.txt"
 
   #Now we create a pandas dataframe with the data in the file
   df = pd.read_csv(data_file_path,delimiter='\t')
@@ -71,7 +71,7 @@ See [Selecting Subsets of Data in Pandas](https://medium.com/dunder-data/selecti
   ax.grid(True)
   # Here I save the file to my local harddrive. You will need to change this to work on your computer.
   # We don't need the file type (png) here.
-  plt.savefig('linear')
+  plt.savefig('C:/Users/Jiwon Lee/github/4530/tutorial_image')
   plt.show()
   print(intercept)
   print(slope)
